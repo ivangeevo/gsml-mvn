@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ivangeevo",
+    "module": "gsml",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gsml-1.0.jar",
+          "url": "gsml-1.0.jar",
+          "size": 2077,
+          "sha512": "6be5e548671e8f4902c2c62a92a1ab247e418371ad9fa9932744bb6a8dac5f961b1ba8b85e31f407bd0df88a2d91cbfc870bdbadc088ee99143912bc38db61c0",
+          "sha256": "a7706ca2918ad9d41df175d582dd08d15381cb13dde43539f9819639098b70d1",
+          "sha1": "54bfe1aee2738427336b1d780ccb9c59242fe444",
+          "md5": "e669973043b8c6e5d4029f84e0a9a42d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gsml-1.0.jar",
+          "url": "gsml-1.0.jar",
+          "size": 2077,
+          "sha512": "6be5e548671e8f4902c2c62a92a1ab247e418371ad9fa9932744bb6a8dac5f961b1ba8b85e31f407bd0df88a2d91cbfc870bdbadc088ee99143912bc38db61c0",
+          "sha256": "a7706ca2918ad9d41df175d582dd08d15381cb13dde43539f9819639098b70d1",
+          "sha1": "54bfe1aee2738427336b1d780ccb9c59242fe444",
+          "md5": "e669973043b8c6e5d4029f84e0a9a42d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gsml-1.0-sources.jar",
+          "url": "gsml-1.0-sources.jar",
+          "size": 1730,
+          "sha512": "800dec73ff5b1859faf547dbfc5be1357b82adc74fa824aeec859c5b69333e4423fdb48c853a6c594cb11171455a21103cc204af1d9cfb7d3606a58bcd769657",
+          "sha256": "80b7db4e30eb9cff3a3c1fb8a7b8b3867e81d7f9c8da1ce5a0c96eb4acebce29",
+          "sha1": "ebaa8850d171bec064b7f4e2c8f3e5879b936fd7",
+          "md5": "04d864b1066f67fd0137b727d366b784"
+        }
+      ]
+    }
+  ]
+}
